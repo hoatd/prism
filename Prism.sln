@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prism", "Prism\Prism.vcproj", "{BFF251E8-3BCB-4D38-8873-9B5D997E0361}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stats", "Stats\Stats.vcproj", "{3387EA0E-D834-4FB6-969D-333F6C645DAD}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DatasetConvert", "DatasetConvert\DatasetConvert.vcproj", "{743ACA0A-FC89-4EF6-A548-DFDED3D5C72C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DatasetInfo", "DatasetInfo\DatasetInfo.vcproj", "{85D15A0C-0DBF-43A2-9095-22C5AC152358}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistDataset", "DistDataset\DistDataset.vcproj", "{B7186423-A9AC-4A75-AA32-4E5533A20B51}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistSlaver", "DistSlaver\DistSlaver.vcproj", "{3B530853-0D78-464A-8A9E-98317B1FB1AF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistMaster", "DistMaster\DistMaster.vcproj", "{63F7009F-6041-4353-B50A-3872E0BE6E56}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF251E8-3BCB-4D38-8873-9B5D997E0361}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFF251E8-3BCB-4D38-8873-9B5D997E0361}.Debug|Win32.Build.0 = Debug|Win32
+		{BFF251E8-3BCB-4D38-8873-9B5D997E0361}.Release|Win32.ActiveCfg = Release|Win32
+		{BFF251E8-3BCB-4D38-8873-9B5D997E0361}.Release|Win32.Build.0 = Release|Win32
+		{3387EA0E-D834-4FB6-969D-333F6C645DAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3387EA0E-D834-4FB6-969D-333F6C645DAD}.Debug|Win32.Build.0 = Debug|Win32
+		{3387EA0E-D834-4FB6-969D-333F6C645DAD}.Release|Win32.ActiveCfg = Release|Win32
+		{3387EA0E-D834-4FB6-969D-333F6C645DAD}.Release|Win32.Build.0 = Release|Win32
+		{743ACA0A-FC89-4EF6-A548-DFDED3D5C72C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{743ACA0A-FC89-4EF6-A548-DFDED3D5C72C}.Debug|Win32.Build.0 = Debug|Win32
+		{743ACA0A-FC89-4EF6-A548-DFDED3D5C72C}.Release|Win32.ActiveCfg = Release|Win32
+		{743ACA0A-FC89-4EF6-A548-DFDED3D5C72C}.Release|Win32.Build.0 = Release|Win32
+		{85D15A0C-0DBF-43A2-9095-22C5AC152358}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85D15A0C-0DBF-43A2-9095-22C5AC152358}.Debug|Win32.Build.0 = Debug|Win32
+		{85D15A0C-0DBF-43A2-9095-22C5AC152358}.Release|Win32.ActiveCfg = Release|Win32
+		{85D15A0C-0DBF-43A2-9095-22C5AC152358}.Release|Win32.Build.0 = Release|Win32
+		{B7186423-A9AC-4A75-AA32-4E5533A20B51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7186423-A9AC-4A75-AA32-4E5533A20B51}.Debug|Win32.Build.0 = Debug|Win32
+		{B7186423-A9AC-4A75-AA32-4E5533A20B51}.Release|Win32.ActiveCfg = Release|Win32
+		{B7186423-A9AC-4A75-AA32-4E5533A20B51}.Release|Win32.Build.0 = Release|Win32
+		{3B530853-0D78-464A-8A9E-98317B1FB1AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B530853-0D78-464A-8A9E-98317B1FB1AF}.Debug|Win32.Build.0 = Debug|Win32
+		{3B530853-0D78-464A-8A9E-98317B1FB1AF}.Release|Win32.ActiveCfg = Release|Win32
+		{3B530853-0D78-464A-8A9E-98317B1FB1AF}.Release|Win32.Build.0 = Release|Win32
+		{63F7009F-6041-4353-B50A-3872E0BE6E56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63F7009F-6041-4353-B50A-3872E0BE6E56}.Debug|Win32.Build.0 = Debug|Win32
+		{63F7009F-6041-4353-B50A-3872E0BE6E56}.Release|Win32.ActiveCfg = Release|Win32
+		{63F7009F-6041-4353-B50A-3872E0BE6E56}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

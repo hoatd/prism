@@ -1,0 +1,15 @@
+This is an implementation of the PRISM algorithm of K. Gouda, M. Hassaan and M. J. Zaki, "Prism: A Primal-Encoding Approach for Frequent Sequence Mining," Seventh IEEE International Conference on Data Mining (ICDM 2007), Omaha, NE, USA, 2007, pp. 487-492, doi: 10.1109/ICDM.2007.33 https://doi.org/10.1109/ICDM.2007.33 .
+
+I also bring the PRISM into distributed database scheme to show that by using PRISM can mine frequent sequences in a very large dataset in comparison with the centralised database scheme as in the origin.
+
+The implementations and tools are written in C++ programming language, and run in MS Windows.
+ 
+Use the Prism.sln to build entire projects by Microsoft Visual C++ 7.0, includes sub-projects:
+
+1) Prism: The implementation of the algorithm PRISM for mining sequences in a centralised database.
+2) DistMaster and DistSlaver: The implementation of the algorithm PRISM for mining sequences in a distributed database. 
+3) DatasetConvert: A tool to Convert datasets (Generated, Protein, Gazelle,...) into sequent format.
+4) DatasetInfo: A tool to show information of datasets in sequent format (which are output by DatasetConvert).
+5) DistDataset: A tool to distribute a centralised database to a distributed database at multiple locations (which be used in DistMaster and DistSlaver).
+6) Stats: A utility to monitor the memory using and executing time during mining.
+7) IBM-datagen: A customisation for using on Windows (use Cygwin) to generate datasets bases on the ALMADEN from IBM(a modification of Prof. M.J. Zaki available at http://www.cs.rpi.edu/~zaki/software/IBM-datagen.tgz).
